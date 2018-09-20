@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "CGM Book: A Minimal Example"
+author: "Xinshuai Qi, Jinliang Yang, Siwen Deng, Hai Wang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
