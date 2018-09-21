@@ -1,5 +1,5 @@
 --- 
-title: "CGM Book: A Minimal Example"
+title: "CGM知识库 (beta) "
 author: "Xinshuai Qi, Jinliang Yang, Siwen Deng, Hai Wang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,31 +9,12 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "CGM知识库 （knowledgebase）是一个由CGM成员共同创建，维护的与基因组学相关的wiki知识库。其目的是收集，分享有价值的信息。"
 ---
 
-# Prerequisites
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
-The **bookdown** package can be installed from CRAN or Github:
-
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
-
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
-
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+CGM知识库 （knowledgebase）是一个由CGM成员共同创建，维护的与基因组学相关的wiki知识库。其目的是收集，分享有价值的信息。
 
 <!--chapter:end:index.Rmd-->
 
